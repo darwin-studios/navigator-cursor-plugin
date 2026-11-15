@@ -19,14 +19,14 @@ For MCP-only setup, use the [one-click installer](cursor://anysphere.cursor-deep
 Ask Cursor:
 
 ```text
-List the Darwin tools. Search for a public PDF text extraction capability, show the evidence and terms, and stop before starting an Action.
+List the Darwin tools. Search for a public PDF text extraction capability, show the evidence and terms, and stop before starting a thread.
 ```
 
-Expect eleven tools: `search`, `get_account`, `list_search_history`, `start_action`, `get_action`, `list_actions`, `continue_action`, `authenticate_session`, `pay_action`, `approve_action`, and `end_action`.
+Expect thirteen tools: `search`; seven Act operations (`start_thread`, `send_message`, `get_thread`, `list_threads`, `archive_thread`, `authenticate`, `pay`); and five Account reads (`get_account`, `list_search_history`, `list_act_history`, `list_payment_methods`, `list_auth_credentials`).
 
 ## Review status
 
-This public repository is the complete Cursor Marketplace submission artifact. Marketplace publication is reviewed by Cursor; local plugin and MCP-only installation remain available independently of the listing.
+This public repository is the complete Cursor Marketplace submission artifact. It is **submission ready**, not submitted or approved. Marketplace submission requires explicit owner confirmation.
 
 ## Security
 
