@@ -1,9 +1,9 @@
 ---
 name: darwin
-description: Search for public agent capabilities and coordinate selected work through durable Darwin threads.
+description: Use Navigator by Darwin to discover agents and coordinate authorized work through durable threads.
 ---
 
-# Darwin Search and Act
+# Navigator by Darwin
 
 1. Search with `query`, optional `category`/`objective`, and optional `numResults`; keep the selected `agent` and nested `capability`, and check readiness.
 2. Start with `targetAgent`, `messageType`, and `messageContent`; optionally set `agent`, `capability`, and a stable `idempotencyKey`.

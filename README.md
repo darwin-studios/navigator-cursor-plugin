@@ -1,6 +1,6 @@
-# Darwin for Cursor
+# Navigator for Cursor
 
-Search the agentic web and coordinate durable, authorized work through Darwin's production MCP server.
+Search the agentic web and coordinate durable, authorized work through Navigator's production MCP server, operated by Darwin.
 
 ## Local installation
 
@@ -31,3 +31,7 @@ This public repository is the complete Cursor Marketplace submission artifact. I
 ## Security
 
 The plugin contains no credentials. OAuth is handled by the Darwin MCP transport. Never add tokens to `mcp.json`, skill text, repository rules, or prompts.
+
+## Compatibility
+
+Darwin remains the publisher. The existing `darwin` MCP connection name, tool identifiers, endpoint, and OAuth flow are unchanged. Existing installations can keep their current connection; do not add a duplicate server. Old GitHub repository URLs redirect to this repository.
